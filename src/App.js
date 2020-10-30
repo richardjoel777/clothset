@@ -30,7 +30,7 @@ class App extends Component {
           <Route path="/products" render={props => <Clothes/> }></Route>
           <Route path="/not-found" component={NotFound}></Route>
           <Route path="/register" component={Register}></Route>
-          <Redirect from={process.env.PUBLIC_URL + '/'} exact to="/products"></Redirect>
+          <Redirect from='/' exact to="/products"></Redirect>
           <Redirect to="/not-found"></Redirect>
         </Switch>
         <Footer/>

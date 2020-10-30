@@ -28,7 +28,7 @@ class App extends Component {
            component={ProductDetails}
           />
           <Route path="/products" render={props => <Clothes/> }></Route>
-          <Route path="/not-found" component={NotFound}></Route>
+          <Redirect path="/not-found" to="/products"></Redirect>
           <Route path="/register" component={Register}></Route>
           <Redirect from='/' exact to="/products"></Redirect>
           <Redirect to="/not-found"></Redirect>

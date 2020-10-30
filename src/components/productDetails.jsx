@@ -52,6 +52,10 @@ class ProductDetails extends Component {
         image: product.image
        }
     } 
+
+handleSubmit(){
+    window.alert("your order placed successfully");
+    window.location = "/";
     render() { 
         const { data : product, similiarItems } = this.state;
         const { onClick } = this.props;
@@ -72,7 +76,7 @@ class ProductDetails extends Component {
                             </div>
                             <div className="row justify-content-center">
                                 <Link to="/">
-                                <button className="btn btn-primary m-2">Buy Now</button>
+                                <button className="btn btn-primary m-2" onClick={this.handleSubmit}>Buy Now</button>
                                 </Link>
                             </div>
                     </div>

@@ -19,7 +19,7 @@ class Register extends Form {
 
   }
     render() { 
-        return <div>
+        return <div className=" row-5 m-3 p-3 rounded shadow" style={{backgroundColor:"white"}}>
         <h1>Register</h1>
         <form onSubmit={this.handleSubmit}>
           {this.renderInput('number', 'Mobile Number')}

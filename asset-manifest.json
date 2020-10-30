@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/clothset/static/css/main.b13912fa.chunk.css",
+    "main.js": "/clothset/static/js/main.6457232f.chunk.js",
+    "main.js.map": "/clothset/static/js/main.6457232f.chunk.js.map",
+    "runtime-main.js": "/clothset/static/js/runtime-main.e5ab4716.js",
+    "runtime-main.js.map": "/clothset/static/js/runtime-main.e5ab4716.js.map",
+    "static/css/2.438c81b9.chunk.css": "/clothset/static/css/2.438c81b9.chunk.css",
+    "static/js/2.755f16fd.chunk.js": "/clothset/static/js/2.755f16fd.chunk.js",
+    "static/js/2.755f16fd.chunk.js.map": "/clothset/static/js/2.755f16fd.chunk.js.map",
+    "static/js/3.3a406e37.chunk.js": "/clothset/static/js/3.3a406e37.chunk.js",
+    "static/js/3.3a406e37.chunk.js.map": "/clothset/static/js/3.3a406e37.chunk.js.map",
+    "index.html": "/clothset/index.html",
+    "static/css/2.438c81b9.chunk.css.map": "/clothset/static/css/2.438c81b9.chunk.css.map",
+    "static/css/main.b13912fa.chunk.css.map": "/clothset/static/css/main.b13912fa.chunk.css.map",
+    "static/js/2.755f16fd.chunk.js.LICENSE.txt": "/clothset/static/js/2.755f16fd.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/clothset/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5ab4716.js",
+    "static/css/2.438c81b9.chunk.css",
+    "static/js/2.755f16fd.chunk.js",
+    "static/css/main.b13912fa.chunk.css",
+    "static/js/main.6457232f.chunk.js"
+  ]
+}

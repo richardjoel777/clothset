@@ -18,7 +18,7 @@ class App extends Component {
   
   render()
   {
-  return<div className="container mt-5">
+  return<div className="container-fluid mt-5">
     <ToastContainer/>
     <NavBar/>
   <Switch>
